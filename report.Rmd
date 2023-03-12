@@ -1,0 +1,46 @@
+---
+title: "Project 1 Report"
+author: "Ping Zhao"
+date: "2023-03-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Project requirements
+
+The Part A and E  of Project 1 are related to the works about GitHub and GitHub pages. The works are met all the requirements. The URLs of Part A (repository) and Part E (GitHub pages) as follow respectively:
+https://github.com/evepz/stats220; https://github.com/evepz/stats220/blob/main/index.html
+
+Below is the screenshot of the project folder which has set up and used in .Rproject within RStudio: 
+
+![screenshot](Stats220 Project 1 screenshot.jpg)
+
+The demonstration of the project is creative. For examples, more CSS are used to change the appearance of HTML, another webpage using Rmd was created which is linked to the index page. 
+
+## Learning reflection
+
+As a new user of RStudio, there are several important ideas that I learned in Module 1. Such as: 
+
+  * Setup RStudio panes, using Markdown to reproduce documents, 
+  * create webpages in GitHub which is a community for R programming users, 
+  * have learned basic R syntax to produce the project as required, 
+  * edit HTML, YAML and CSS.
+
+For further learning, I am curious about lots of things related to data technologies. 
+
+  * Most interested is data visualization by using ggplot (or any updated     packages available). 
+  * Others are about import and tidy data,
+  * transformation and exploration of data, 
+  * modelling data,
+  * how R program deal with large data sets, etc.
+
+
+```{css}
+p {
+font-weight: bold;
+padding: 10px;
+}
+```

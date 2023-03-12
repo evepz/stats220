@@ -19,22 +19,7 @@ I have not get used to or familiar with it. Therefor I have chosen the meme from
 ![meme](my_meme.png)
 
 ```{r file='meme.R', eval=FALSE}
-library(magick)
 
-final_scene <- image_read("https://cdn.quotesgram.com/img/4/23/86248399-2389aed455b9ba548413e19817666d26.jpg") %>%
-  image_scale(500)
-
-movie_text <- image_blank (width = 500,
-                           height = 750,
-                           color = "#000000") %>%
-  image_annotate(text = "Final Scene\nCasablanca",
-                 color = "#FFFFFF",
-                 size = 80,
-                 font = "Eras Bold ITC",
-                 gravity = "center")
-
-meme <- c(final_scene, movie_text)
-  image_append(meme)
 ```
 
 ## My animated GIF
@@ -44,21 +29,6 @@ The meme called "a rocky planet" just caught my attention at the first glance an
 ![animation](my_animation.gif)
 
 ```{r file='animation.R', eval=FALSE}
-library(magick)
-
-frame1<-image_read("https://i.imgflip.com/2373dw.jpg") %>%
-  image_scale(500)
-frame2<-image_read("https://th.bing.com/th/id/OIP.DAQNhsndM2ag-Jt5uUmiFgAAAA?pid=ImgDet&rs=1") %>%
-  image_scale(500)
-frame3<-image_read("https://th.bing.com/th/id/R.42f0bd67e439ee6106f585038c6b34bc?rik=gJMtZPa%2fh88Zjw&riu=http%3a%2f%2fimg.memecdn.com%2frocket-science_o_2018329.jpg&ehk=8bxlMUmEUKyHq9IMAGRS%2b60x0Ofnu2%2fzeTLpt9xptsE%3d&risl=&pid=ImgRaw&r=0") %>%
-  image_scale(500)
-frame4<-image_read("https://i.pinimg.com/originals/f2/92/bc/f292bce8c0f67ef031beb05802b1fa04.jpg") %>%
-  image_scale(500)
-
-animation<-c(frame1,frame2,frame3,frame4)
-
-animation %>%
-  image_animate(fps=1)
 
 ```
 
